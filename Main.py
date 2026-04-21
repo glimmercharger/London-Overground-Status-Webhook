@@ -2,10 +2,10 @@ import requests
 import time
 
 # --- CONFIGURATION ---
-WEBHOOK_URL = "https://discord.com/api/webhooks/1474807586942488717/VzP1B-2mllRCPqxCAmphj6OFACAS4zCxEvDwynj-VzAmAL9azgnesBQWa5PkBkG5Szv5"
+WEBHOOK_URL = "your-webhook-url"
 # Paste your key here exactly as it appears in your TfL profile
-API_KEY = "59bac6339fc0412580dee3e1e8f3c643" 
-DISCORD_ROLE_ID = "1473804781943390379"
+API_KEY = "your-api" 
+DISCORD_ROLE_ID = "your-role-id"
 
 # Clean the key and prepare the URL
 CLEAN_KEY = API_KEY.strip()
